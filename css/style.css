@@ -1,0 +1,47 @@
+body {
+    background-image: url("http://res.cloudinary.com/dhjypclhx/image/upload/v1501621345/Encyclopedias_ftg8er.jpg");
+  
+ background-size: 150% auto;
+}
+
+a, a:visited, a:hover, a:active{
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+}
+
+h1{
+  margin:20px;
+  color: white;  
+}  
+ 
+form {
+  text-align: center;
+}
+
+#results-box{
+  margin: 20px;
+  font-family: Times;
+  display:none;
+  font-size: 20px;
+}
+
+.wrapper{
+  text-align: center;
+  margin: 10px;\
+}
+
+.entry{
+  margin-bottom:5px;
+  background-color:#577ab2;
+  padding: 10px;
+}
+
+.entry:hover{
+  background-color:white;
+  text-decoration:none;
+}
+
+.header{
+  height:100px;
+}

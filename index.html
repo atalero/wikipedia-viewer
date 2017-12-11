@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class= "container-fluid">
+
+  <div class="header">
+    <h1 class="text-center">Wikipedia Viewer</h1>
+
+    <form id="target">
+      <input type="text" placeholder="Type your search here">
+       <input type="submit" value="Search">
+      <button onclick="window.open('https://en.wikipedia.org/wiki/Special:Random')" type="button">Random Article</button>
+    </form>
+  </div>
+  <div class = "row">
+    <div class="col-lg-4"></div>
+    <div id = "results-box" class="col-lg-4">
+      <div id="results"></div>
+      <div class="wrapper"><button id="btn">Back</button></div>
+    </div>  
+    <div class="col-lg-4"></div>
+  </div>  
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
